@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/prathamesh216/startup-of-the-year/issues"
   },
-  "homepage": "https://github.com/prathamesh216/startup-of-the-year#readme"
+  "homepage": "https://github.com/prathamesh216/startup-of-the-year#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
